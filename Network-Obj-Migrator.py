@@ -4,7 +4,7 @@ from PA import *
 from xlsx import read_xlsx_file
 s = 'y'
 while s == 'y':
-    print(colored('Welcome to bmb Network Object Migrator', 'red'))
+    print(colored('Welcome to Network Object Migrator', 'red'))
     print(colored('Select your Source and Destination of objects from the following', 'red'))
     print(colored('1. excel file\n2. Cisco FMC\n3. Palo Alto FW\n4. Palo Alto Panorama\n5. Fortigate FW\n6. StoneGate FW', 'cyan'))
     Srxlsx = False
